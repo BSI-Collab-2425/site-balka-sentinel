@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font-serif: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-sans:  'Inter', system-ui, sans-serif;
+  --font-mono:  'JetBrains Mono', monospace;
+
+  /* Bleu Professionnel - Palette Principale */
+  --cream:      #f0f4f8;
+  --cream-2:    #e8ecf1;
+  --paper:      #ffffff;
+  --ink:        #0d1b2a;
+  --ink-2:      #1a2f4b;
+  --muted:      #546e7a;
+  --muted-2:    #90a4ae;
+  --line:       #cfd8dc;
+  --line-soft:  #eceff1;
+
+  /* Bleus Pro */
+  --terra:      #1565c0;
+  --terra-soft: #bbdefb;
+  --terra-bg:   #e3f2fd;
+  --olive:      #1976d2;
+  --olive-soft: #bbdefb;
+  --olive-bg:   #e3f2fd;
+  --gold:       #0d47a1;
+  --gold-soft:  #c5cae9;
+  --gold-bg:    #e8eaf6;
+  --rust:       #0288d1;
+  --rust-soft:  #b3e5fc;
+  --rust-bg:    #e1f5fe;
+  --denim:      #1e88e5;
+  --denim-soft: #bbdefb;
+  --denim-bg:   #e3f2fd;
+
+  --radius-sm: 8px;
+  --radius:    12px;
+  --radius-lg: 20px;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root { min-height: 100vh; }
+
+::selection { background: var(--terra-soft); color: var(--ink); }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-2); }

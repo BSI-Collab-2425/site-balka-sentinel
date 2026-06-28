@@ -4,6 +4,7 @@ import Presentation from './components/sections/Presentation'
 import Demo from './components/sections/Demo'
 import Offres from './components/sections/Offres'
 import Newsletter from './components/sections/Newsletter'
+import Footer from './components/sections/Footer'        // ← NOUVEAU
 import './styles/global.css'
 
 export type Section = 'presentation' | 'demo' | 'offres' | 'newsletter'
@@ -24,6 +25,7 @@ export default function App() {
     <>
       <Navbar active={active} onNavigate={setActive} />
       <main>{renderSection()}</main>
+      <Footer />    
     </>
   )
 }

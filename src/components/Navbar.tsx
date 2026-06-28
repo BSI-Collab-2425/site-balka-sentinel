@@ -41,8 +41,7 @@ export default function Navbar({ active, onNavigate }: Props) {
         <div className={styles.inner}>
           {/* Logo */}
           <button className={styles.logo} onClick={handleLogoClick}>
-            <img src="/logo-cat.png" alt="balka-sentinel" className={styles.logoIcon} />
-            <span className={styles.logoText}>Sentinel</span>
+            <span className={styles.logoText}>Balka-sentinel</span>
           </button>
 
           {/* Desktop links */}

@@ -267,7 +267,7 @@ export default function Presentation() {
         {/* ── Hero ── */}
         <div className={styles.hero}>
           <h1 className={styles.heroTitle}>
-            Détection<br /><em>d'intrusion</em><br />réseau
+            Détection<br />d'<em>intrusion</em><br />réseau
           </h1>
           <p className={styles.heroDesc}>
             Une architecture complète de supervision sécurité basée sur Snort, Wazuh et GLPI —

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 
           {/* Colonne brand */}
           <div className={styles.brand}>
-            <div className={styles.logo}>Votre<em>Marque</em></div>
+            <div className={styles.logo}>Balka-sentinel</div>
             <p className={styles.tagline}>
               Une solution pensée pour simplifier votre quotidien.
             </p>
